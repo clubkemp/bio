@@ -16,26 +16,35 @@ h1 {
     padding-right: 30px;;
 }
 h2{
-    margin: 0px auto;
+    margin: 30px auto;
     display: inline;
     background-image: linear-gradient(#fff 60%, #98C4C5 55%)
 }
 .flex{
     display: flex;
+    justify-content: space-evenly;
+}
+.icon{
+    height: 50px;
+    width: 50px;
 }
 .sub{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+.blurb {
+    text-align: center;
+    margin: 20px 50px;
+    font-size: large;
+}
+.stuff{
+    font-size: small;
+}
 #hero {
     max-height: 400px;
     border-radius: 50%;
     display: block;
     margin: 50px auto;
-}
-#blurb {
-    text-align: center;
-    margin: 20px 50px;
 }
 
