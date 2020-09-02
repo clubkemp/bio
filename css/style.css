@@ -20,9 +20,23 @@ h2{
     display: inline;
     background-image: linear-gradient(#fff 60%, #98C4C5 55%)
 }
+h3{
+    margin-left: 20px;
+}
+ul {
+    margin-left: 20px;
+}
+footer {
+    background: rgb(221, 216, 216);
+    
+}
+li {
+    font-size: small;
+}
 .flex{
     display: flex;
     justify-content: space-evenly;
+
 }
 .icon{
     height: 50px;
